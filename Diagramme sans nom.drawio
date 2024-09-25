@@ -1,9 +1,19 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.16">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1796" dy="2028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1620" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="T2nT70skpOM0TPlQw2HE-97" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U8_qWJmLySIo-0hsO4A5-46" target="T2nT70skpOM0TPlQw2HE-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413.5" y="637.5" as="sourcePoint" />
+            <mxPoint x="463.5" y="587.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="655" />
+              <mxPoint x="440" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="U8_qWJmLySIo-0hsO4A5-7" value="Check if it is a built in command via the data struct created in point 1" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-130" y="670" width="95" height="95" as="geometry" />
         </mxCell>
@@ -278,34 +288,10 @@
         <mxCell id="U8_qWJmLySIo-0hsO4A5-57" value="&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;Important notes: - The first input cannot be a filename nor a string&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Redirections cannot be the first token either &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Redirections must be followed by a vaild filename (except &amp;gt;)&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="340" y="560" width="460" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="U8_qWJmLySIo-0hsO4A5-58" value="&lt;div&gt;-Use getnenv() to retrieve the PATH&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Split the path in seperate directories (remove the &#39;:&#39; in between them)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Search threw newly created tableau if external cmd is inside&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-130" y="460" width="130" height="187.5" as="geometry" />
-        </mxCell>
-        <mxCell id="U8_qWJmLySIo-0hsO4A5-59" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.992;entryY=0.591;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U8_qWJmLySIo-0hsO4A5-49" target="U8_qWJmLySIo-0hsO4A5-58" edge="1">
+        <mxCell id="U8_qWJmLySIo-0hsO4A5-59" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.992;entryY=0.591;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U8_qWJmLySIo-0hsO4A5-49" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="30" y="530" as="sourcePoint" />
-            <mxPoint x="80" y="480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U8_qWJmLySIo-0hsO4A5-62" value="" style="endArrow=none;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-115" y="500" as="sourcePoint" />
-            <mxPoint x="-15" y="500" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-35" y="500" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U8_qWJmLySIo-0hsO4A5-65" value="" style="endArrow=none;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-115" y="570" as="sourcePoint" />
-            <mxPoint x="-15" y="570" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U8_qWJmLySIo-0hsO4A5-66" value="" style="endArrow=none;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-115" y="630" as="sourcePoint" />
-            <mxPoint x="-15" y="630" as="targetPoint" />
+            <mxPoint x="-1.0399999999999636" y="570.8125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="U8_qWJmLySIo-0hsO4A5-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U8_qWJmLySIo-0hsO4A5-67" edge="1">
@@ -482,7 +468,7 @@
         <mxCell id="U8_qWJmLySIo-0hsO4A5-129" value="Token °3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="470" y="850" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U8_qWJmLySIo-0hsO4A5-130" value="Token °5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="U8_qWJmLySIo-0hsO4A5-130" value="Token °4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="445" y="630" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="U8_qWJmLySIo-0hsO4A5-132" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U8_qWJmLySIo-0hsO4A5-68" target="U8_qWJmLySIo-0hsO4A5-133" edge="1">
@@ -577,17 +563,11 @@
             <mxPoint x="852.5" y="1100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T2nT70skpOM0TPlQw2HE-19" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="749" as="sourcePoint" />
-            <mxPoint x="510" y="750" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="T2nT70skpOM0TPlQw2HE-20" value="pipes" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="505" y="710" width="120" height="80" as="geometry" />
+          <mxGeometry x="950" y="535" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T2nT70skpOM0TPlQw2HE-21" value="Token °4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="445" y="720" width="60" height="30" as="geometry" />
+        <mxCell id="T2nT70skpOM0TPlQw2HE-21" value="Token °5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=270;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="395" y="607.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T2nT70skpOM0TPlQw2HE-23" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The wait(status) returns an integer that still needs to be processed using macros provided by POSIX.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1140" y="1240" width="200" height="110" as="geometry" />
@@ -834,8 +814,35 @@
             <mxPoint x="-370" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T2nT70skpOM0TPlQw2HE-96" value="&lt;font color=&quot;#ff0000&quot;&gt;!!!! If&amp;nbsp; single quotes inside!!!! double quotes and vis versa, the inner quotes have to be treated as a normal character&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="T2nT70skpOM0TPlQw2HE-96" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;!!!! If&amp;nbsp; single quotes inside&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;!!!!&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;of double quotes and vis versa, the inner quotes have to be treated as a normal character&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-530" y="900" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="T2nT70skpOM0TPlQw2HE-98" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-130" y="475" width="130" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="T2nT70skpOM0TPlQw2HE-99" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T2nT70skpOM0TPlQw2HE-98">
+          <mxGeometry width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T2nT70skpOM0TPlQw2HE-100" value="-Use getnenv() to retrieve the PATH" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="T2nT70skpOM0TPlQw2HE-99">
+          <mxGeometry width="130" height="60" as="geometry">
+            <mxRectangle width="130" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T2nT70skpOM0TPlQw2HE-101" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T2nT70skpOM0TPlQw2HE-98">
+          <mxGeometry y="60" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T2nT70skpOM0TPlQw2HE-102" value="-Split the path in seperate directories (remove the &#39;:&#39; in between them)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="T2nT70skpOM0TPlQw2HE-101">
+          <mxGeometry width="130" height="60" as="geometry">
+            <mxRectangle width="130" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T2nT70skpOM0TPlQw2HE-103" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T2nT70skpOM0TPlQw2HE-98">
+          <mxGeometry y="120" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T2nT70skpOM0TPlQw2HE-104" value="-Search threw newly created tableau if external cmd is inside" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="T2nT70skpOM0TPlQw2HE-103">
+          <mxGeometry width="130" height="60" as="geometry">
+            <mxRectangle width="130" height="60" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
